@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" href="src/index.css" />
+        <script defer src="./src/index.js"></script>
+    </head>
+    <body>
+
+        <div class="register-container">
+            <div class="content">
+                <section>
+                    <h1> Color Via range </h1>
+
+                    <p> Selecione a cor <span id="colorOutput"></span></p>
+                </section>
+                <form>
+                    <div class="input-group">
+                        <div class="cores">
+                            <div class="input-group">
+                                <div class="label"><label> <font color="#AA0000">(R)</font> Red: </label></div>
+                                <div class="range"><input type="range" id="rangeRed" value="4" min="0" max="255"></div>
+                                <div class="text"><input type="text" id="textRed" value="4" min="0" max="255" disabled="disabled"></div>
+                            </div>
+
+                            <div class="input-group">
+                                <div class="label"><label> <font color="#00AA00">(G)</font> Green: </label></div>
+                                <div class="range"><input type="range" id="rangeGreen" value="139" min="0" max="255"></div>
+                                <div class="text"><input type="text" id="textGreen" value="139" min="0" max="255" disabled="disabled"></div>
+                            </div>
+                            <div class="input-group">
+                                <div class="label"><label> <font color="#0000AA">(B)</font> Blue: </label></div>
+                                <div class="range"><input type="range" id="rangeBlue" value="168" min="0" max="255"></div>
+                                <div class="text"><input type="text" id="textBlue" value="168" min="0" max="255" disabled="disabled"></div>
+                            </div>
+                        </div>
+                        <div class="quadrado" id="quadrado">
+                            
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

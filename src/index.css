@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font: 400 14px Roboto, sans-serif;
+    background: #f0f0f5;
+    -webkit-font-smoothing: antialiased;
+}
+
+input,
+button,
+textarea {
+  font: 400 18px Roboto, sans-serif;
+}
+
+.register-container {
+    width: 100%;
+    max-width: 1120px;
+    height: 100vh;
+    margin: 0 auto;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.register-container .content {
+    width: 100%;
+    padding: 135px;
+    background: #f0f0f5;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.register-container .content section {
+    width: 100%;
+    max-width: 380px;
+}
+
+.register-container .content section h1 {
+    margin: 14px 0 32px;
+    font-size: 32px;
+}
+  
+.register-container .content section p {
+    font-size: 18px;
+    color: #737380;
+    line-height: 32px;
+}
+
+.register-container .content form {
+    width: 100%;
+    max-width: 450px;
+}
+  
+.register-container .content form input {
+    margin-top: 8px;
+}
+  
+.register-container .content form .input-group {
+    display: flex;
+}
+  
+.register-container .content form .input-group input + input {
+    margin-left: 8px;
+}
+
+.register-container .content form label {
+    font-size: 18px;
+}
+
+.register-container .content form .label{
+    width: 40%;
+}
+
+.register-container .content form .range{
+    width: 35%;
+}
+
+.register-container .content form #textRed {
+      text-align: center;
+      width: 25%;
+      margin-left: 18px;
+}
+
+.register-container .content form #textGreen {
+    text-align: center;
+    width: 25%;
+    margin-left: 18px;
+}
+
+.register-container .content form #textBlue {
+    text-align: center;
+    width: 25%;
+    margin-left: 18px;
+}
+
+.quadrado {
+    border-style: outset;
+    height: 100px;
+    width: 25%;
+}
