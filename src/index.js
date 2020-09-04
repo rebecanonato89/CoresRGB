@@ -20,3 +20,5 @@ function changeColor() {
 document.getElementById('rangeRed').addEventListener('input', changeColor);
 document.getElementById('rangeGreen').addEventListener('input', changeColor);
 document.getElementById('rangeBlue').addEventListener('input', changeColor);
+
+changeColor();
